@@ -1,0 +1,22 @@
+{
+  "name": "erc721-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start:dev": "truffle migrate --reset",
+    "start:testnet": "truffle migrate --network ropsten",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.6.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
