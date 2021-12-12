@@ -18,23 +18,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.3.3",
-    "@truffle/hdwallet-provider": "^1.7.0",
-    "eth-gas-reporter": "^0.2.22",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@truffle/hdwallet-provider": "^2.0.6",
+    "eth-gas-reporter": "^0.2.25",
     "ganache-cli": "^6.12.2",
     "solium": "^1.2.5",
-    "truffle": "^5.4.21",
-    "truffle-flattener": "^1.5.0",
+    "truffle": "^5.5.10",
+    "truffle-flattener": "^1.6.0",
     "truffle-hdwallet-provider": "^1.0.17",
-    "truffle-plugin-verify": "^0.5.18",
-    "web3": "^1.6.1"
+    "truffle-plugin-verify": "^0.5.25",
+    "web3": "^1.7.3"
   },
   "devDependencies": {
     "@openzeppelin/test-environment": "^0.1.9",
     "@openzeppelin/test-helpers": "^0.5.15",
-    "husky": "^4.2.3",
-    "lint-staged": "^10.5.3",
-    "solc": "^0.8.10",
-    "solidity-coverage": "^0.7.17"
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.0",
+    "solc": "^0.8.13",
+    "solidity-coverage": "^0.7.20"
   }
 }
